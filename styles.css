@@ -1,9 +1,70 @@
-h1 {
-    color: red;
-    font-family: 'Raleway', sans-serif;
+:root {
+    --main-font: 'Raleway', sans-serif;
+    --main-dark-color: #20263B;
+}
+
+body {
+    font-family: var(--main-font);
+    text-align: center;
+    color: var(--main-dark-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--main-font);
     font-weight: 600;
 }
-h2 {
-    font-weight: 600;
-    font-family: 'Raleway', sans-serif;
+
+.hero {
+    background-image: url(/imgs/1-talkPop.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+
+.hero-card {
+    padding-top: 130px;
+}
+
+.hero h1 {
+    font-size: 64px;
+    line-height: 100px;
+}
+
+.hero h2 {
+    font-size: 48px;
+    line-height: 72px;
+    max-width: 700px;
+    display: block;
+    margin: 40px auto 60px;
+}
+
+.hero h3 {
+    font-size: 24px;
+    line-height: 36px;
+}
+
+@media (max-width: 1200px) {
+    .hero {
+        background-image: url(/imgs/ipad-background1.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100vw;
+        height: 100vh;
+    }
+    .hero-card {
+        padding-top: 200px;
+    }
+    .hero h2 {
+        margin: 60px auto 80px;
+    }
+}
+
+@media (max-width: 960px) {
+    .hero-card {
+        padding-top: 100px;
+    }
+    .hero h2 {
+        margin: 40px auto 60px;
+    }
 }
