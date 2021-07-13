@@ -23,7 +23,10 @@ h1, h2, h3, h4, h5, h6 {
 nav {
     position: fixed;
     background-color: rgba(255, 255, 255, 0.35);
+    top: 0;
+    
 }
+
 nav .logo {
     font-size: 32px;
     font-weight: 600;
@@ -129,7 +132,7 @@ nav .nav-line {
 .about h1 {
     font-size: 48px;
     line-height: 100px;
-    margin: 80px auto 80px;
+    margin: 130px auto 80px;
 }
 
 .about .pictures {
