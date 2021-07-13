@@ -85,6 +85,51 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: underline;
 }
 
+.about h1 {
+    font-size: 48px;
+    line-height: 100px;
+    margin: 80px auto 80px;
+}
+
+.about .pictures {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.about .column {
+    display: flex;
+    flex-direction: column;
+}
+
+.about .pic-team {
+    width: 15vw;
+    margin-bottom: 30px;
+}
+
+.about h2 {
+    font-size: 32px;
+    line-height: 48px;
+    margin: 100px auto 20px;
+}
+
+.about h3 {
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.about .potatoes {
+    max-width: 600px;
+}
+.about .partners {
+    max-width: 800px;
+    margin: 40px auto;
+}
+.about .logos {
+    margin: 0 auto;
+    width: 200px;
+}
+
 @media (max-width: 1200px) {
     .hero {
         background-image: url(/imgs/ipad-background1.png);
@@ -99,6 +144,7 @@ h1, h2, h3, h4, h5, h6 {
     .hero h2 {
         margin: 60px auto 80px;
     }
+
 }
 
 @media (max-width: 960px) {
@@ -121,5 +167,42 @@ h1, h2, h3, h4, h5, h6 {
 
     .container .project-description {
         margin: 20px 0;
+    }
+
+    .about {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .about h1 {
+        font-size: 48px;
+        line-height: 100px;
+        margin: 80px auto 40px;
+    }
+
+    .about h2 {
+        font-size: 24px;
+        line-height: 48px;
+        margin: 50px auto 20px;
+    }
+
+    .about .pictures {
+        display: block;
+        margin: 20px auto;
+    }
+    .about .pic-team {
+        display: block;
+        margin: 20px auto;
+        width: 40vw;
+    }
+
+    .about .potatoes {
+        max-width: 300px;
+    }
+
+    .about .column {
+        display: flex;
+        flex-direction: column;
+        margin: 40px;
     }
 }
