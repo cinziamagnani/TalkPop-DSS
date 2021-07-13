@@ -171,6 +171,31 @@ nav .nav-line {
     width: 200px;
 }
 
+footer {
+    margin-top: 30px;
+}
+
+footer a {
+    text-decoration: none;
+}
+footer .contacts {
+    font-size: 32px;
+    background-color: #899AF5;
+    padding: 20px 20px;
+    border-radius: 50%;
+    color: rgba(255,255,255, 0.7);
+    transition: all 150ms ease-in-out;
+    margin: 0 50px;
+}
+
+footer .contacts:hover {
+    color: #ffffff;
+}
+
+footer .figma {
+    padding: 20px 25px;
+}
+
 @media (max-width: 1200px) {
     .hero {
         background-image: url(/imgs/ipad-background1.png);
@@ -222,7 +247,7 @@ nav .nav-line {
     .about h1 {
         font-size: 48px;
         line-height: 100px;
-        margin: 80px auto 40px;
+        margin: 80px auto 30px;
     }
 
     .about h2 {
@@ -283,6 +308,10 @@ nav .nav-line {
     
     nav .nav-links {
         padding: 20px 40px 20px 0px;
+    }
+
+    footer .contacts {
+        margin: 0 30px;
     }
 
 }
